@@ -1,0 +1,33 @@
+{
+  "description": "PHP Crud, Connect database, and data",
+  "keywords": [
+    "crud",
+    "connect",
+    "php",
+    "mysql",
+    "sqlserve"
+  ],
+  "homepage": "",
+  "bugs": {
+    "url": "https://github.com/maickwendelldev/CRUD_PHP/issues"
+  },
+  "author": {
+    "name": "Maick Wendell",
+    "email": "maickwendelldev@gmail.com",
+    "web": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maickwendelldev/CRUD_PHP"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "dependencies": {},
+  "version": "6.0.0",
+  "name": "crud_php",
+  "license": "(MIT)",
+  "scripts": {
+    "postinstall": "node attribution.js"
+  }
+}
