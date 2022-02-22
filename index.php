@@ -36,6 +36,8 @@ define("CHARSET","utf8");
 include("1connect/PDO_Mysql.php"); //PDO Mysql;
 //-------------------------- PDO PostgreSQL ------------------------//
 #include("1connect/PDO_Postgresql.php"); //PDO PostgreSQL;
+//-------------------------- PDO SQLite ----------------------------//
+#include("1connect/PDO_Sqlite.php"); //PDO SQLite;
 //-------------------------- PDO SQL Server ------------------------//
 #include("1connect/PDO_Sqlserver.php"); //PDO SQL Server;
 //##################################################################//
