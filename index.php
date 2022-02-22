@@ -29,17 +29,20 @@ define("CHARSET","utf8");
 
 
 //Now select the type of database, for that remove the #. (You can only leave one active);
+//##################################################################//
+//-------------------------- PDO Mysql -----------------------------//
+include("1connect/PDO_Mysql.php"); //PDO Mysql;
 //-------------------------- PDO SQL Server ------------------------//
 #include("1connect/PDO_Sqlserver.php"); //SQL Server;
-#include("2model/PDO_Sqlserver.php"); //SQL Server;
-
-//-------------------------- PDO Mysql ------------------------//
-include("1connect/PDO_Mysql.php"); //PDO Mysql;
-include("2model/PDO_Mysql.php"); //PDO Mysql;
+//##################################################################//
 
 
 
-
+//Now select the type of connect you uses, for that remove the #. (You can only leave one active);
+//##################################################################//
+//-------------------------- Modal PDO -----------------------------//
+include("2model/PDO.php"); //Modal in PDO;
+//##################################################################//
 
 
 
