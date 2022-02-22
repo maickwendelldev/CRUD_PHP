@@ -30,6 +30,8 @@ define("CHARSET","utf8");
 
 //Now select the type of database, for that remove the #. (You can only leave one active);
 //##################################################################//
+//-------------------------- PDO Firebird --------------------------//
+#include("1connect/PDO_Firebird.php"); //PDO Firebird;
 //-------------------------- PDO Mysql -----------------------------//
 include("1connect/PDO_Mysql.php"); //PDO Mysql;
 //-------------------------- PDO SQL Server ------------------------//
