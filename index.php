@@ -34,8 +34,10 @@ define("CHARSET","utf8");
 #include("1connect/PDO_Firebird.php"); //PDO Firebird;
 //-------------------------- PDO Mysql -----------------------------//
 include("1connect/PDO_Mysql.php"); //PDO Mysql;
+//-------------------------- PDO PostgreSQL ------------------------//
+#include("1connect/PDO_Postgresql.php"); //PDO PostgreSQL;
 //-------------------------- PDO SQL Server ------------------------//
-#include("1connect/PDO_Sqlserver.php"); //SQL Server;
+#include("1connect/PDO_Sqlserver.php"); //PDO SQL Server;
 //##################################################################//
 
 
