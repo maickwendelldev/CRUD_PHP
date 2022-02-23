@@ -55,10 +55,10 @@ traffic: unlimited
 </pre>
 
 ## <a name="installation"></a> 🖥️ Installation
+To learn more about using CRUD PHP, I recommend looking at our wiki, <a href="https://github.com/maickwendelldev/CRUD_PHP/wiki" target="_blank">click here</a>. 
 ```
 
 NOTE: If you are running CRUD_PHP on change the following configs.
-To learn more about using CRUD PHP, I recommend looking at our wiki, <a href="https://github.com/maickwendelldev/CRUD_PHP/wiki" target="_blank">click here</a>. 
 
 ```
 
