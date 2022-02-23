@@ -46,12 +46,11 @@ CRUD_PHP currently offers the following features:
 - database server
 
 <pre>
-Processor: Intel Xeon E3-1245v2 -
-Colors/Threads: 4c/8t
-Frequency: 3.4GHz / 3.8GHz
-RAM: 32GB DDR3 1333MHz
-Disks: SoftRaid 2x240 GB SSD
-Bandwidth: 250Mbps
+Processor: Anyone 
+Frequency: 1.8GHz
+RAM: 8GB DDR3
+Disks: 20 GB
+Bandwidth: 100Mbps
 traffic: unlimited
 </pre>
 
@@ -70,12 +69,12 @@ NOTE: If you are running CRUD_PHP on change the following configs.
 
 **For Npm:**
 ```
-npm installer https://github.com/maickwendelldev/CRUD_PHP.git 
+npm install crud_php 
 ```
 
 **For Git:**
 ```
-git clone https://github.com/maickwendelldev/CRUD_PHP.git installer
+git clone https://github.com/maickwendelldev/CRUD_PHP.git
 ```
 
 ## <a name="updating"></a> 🖥️ Updating
@@ -84,13 +83,8 @@ git clone https://github.com/maickwendelldev/CRUD_PHP.git installer
 ## <a name="versions"></a> 🚨 Version Support Information
  Version     | Status                   | PHP Version Required
 :------------|:-------------------------|:------------
- 1.x.x       |  Active Support :rocket: | >= 8.1
- 1.x.x       |  End Of Life :skull: | >= 8.0
- 1.x.x       |  End Of Life :skull: | >= 7.4
- 1.x.x       |  End Of Life :skull: | >= 7.4
- 1.0.0 to 1.0.0|  End Of Life :skull: | >= 7.4
- 1.0.0 to 1.0.0|  End Of Life :skull: | >= 7.3
- 1.0.0 to 1.0.0|  End Of Life :skull:     | >= 7.1.3
+ 0.0.1       |  Active Support :rocket: | >= 5.x.x
+ 0.0.0       |  End Of Life :skull:     | <= 4.x.x
 
 ## <a name="security"></a> 🔐 Security
 
