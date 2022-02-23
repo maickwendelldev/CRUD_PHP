@@ -58,6 +58,7 @@ traffic: unlimited
 ```
 
 NOTE: If you are running CRUD_PHP on change the following configs.
+To learn more about using CRUD PHP, I recommend looking at our wiki, <a href="https://github.com/maickwendelldev/CRUD_PHP/wiki" target="_blank">click here</a>. 
 
 ```
 
@@ -78,7 +79,7 @@ git clone https://github.com/maickwendelldev/CRUD_PHP.git
 ```
 
 ## <a name="updating"></a> 🖥️ Updating
-`php artisan git:update`
+coming soon
 
 ## <a name="versions"></a> 🚨 Version Support Information
  Version     | Status                   | PHP Version Required
