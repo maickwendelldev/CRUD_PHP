@@ -125,8 +125,43 @@ CRUD_PHP is open-sourced software licensed under the [MIT License](https://githu
 </b>
 
 ## <a name="demo"></a>  🖥️ Demo
+For working you need edit in crud.php.(a PDO Mysql is active for to disable just put #)
+```
+//Put the database server host, by default we put ("localhost");
+define("HOST","localhost");
+//Put the user who has access to the database server, by default we put ("root");
+define("USER","root");
+//Put the user password, by default we put empty (""); 
+define("PASS","");
+//Put the name of the database, which has the access, by default we put "Teste";
+define("BASE","Teste");
+//Put the charset, by default we put "utf8";
+define("CHARSET","utf8");
 
-coming soon 
+//Now select the type of database, for that remove the #. (You can only leave one active);
+//##################################################################//
+//-------------------------- PDO Firebird --------------------------//
+#include("1connect/PDO_Firebird.php"); //PDO Firebird;
+//-------------------------- PDO Mysql -----------------------------//
+include("1connect/PDO_Mysql.php"); //PDO Mysql;
+        
+```    
+For you include in your project exemple.    
+```
+<!DOCTYPE html>
+<?php include("ProjectPath/CRUD_PHP/crud.php"); //You can use (include_once, include, require_once, require) ?>
+<html>
+<body>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+    
+<?php $DBconnect->getList("table", true); //List all in the table ?>
+    
+</body>
+</html>
+    
+```
 
 ## <a name="chat"></a>  💬 Sponsors Can Chat With Us
 
