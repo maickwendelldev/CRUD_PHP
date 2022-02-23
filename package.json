@@ -1,7 +1,7 @@
 {
   "name": "crud_php",
-  "version": "1.0.0",
-  "description": "Single file PHP script that adds CRUD to a MySQL/MariaDB, PostgreSQL, SQL Server, SQLite or any database.",
+  "version": "0.0.1",
+  "description": "Single file PHP script that adds CRUD to a MySQL, Firebird, PostgreSQL, SQL Server, SQLite or any database.",
   "main": "index.js",
   "scripts": {
     "test": "test"
