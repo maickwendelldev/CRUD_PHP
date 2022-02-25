@@ -184,3 +184,5 @@ https://github.com/sponsors/maickwendelldev?frequency=one-time&sponsor=maickwend
 ## <a name="thanks"></a> 🎉 Special Thanks
 
 <a href="https://github.com"><img src="https://i.imgur.com/NVWhzrU.png" height="50px;"></a>
+<a href="https://www.npmjs.com"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/1200px-Npm-logo.svg.png" height="50px;"></a>
+<a href="https://packagist.org"><img src="https://packagist.org/img/logo-small.png" height="50px;"></a>
