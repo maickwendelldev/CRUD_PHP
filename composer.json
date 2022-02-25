@@ -1,5 +1,5 @@
 {
-  "name": "maickwendelldev/crud_php",
+  "name": "maickwendelldev/CRUD_PHP",
   "description": "Single file PHP script that adds CRUD to a MySQL, Firebird, PostgreSQL, SQL Server, SQLite or any database.",
   "type": "library",
   "require": {
