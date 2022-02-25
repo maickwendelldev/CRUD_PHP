@@ -2,6 +2,7 @@
   "name": "maickwendelldev/crud_php",
   "description": "Single file PHP script that adds CRUD to a MySQL, Firebird, PostgreSQL, SQL Server, SQLite or any database.",
   "type": "library",
+  "homepage": "https://github.com/maickwendelldev/CRUD_PHP",
   "require": {
     "php": ">=5.3.0"
   },
